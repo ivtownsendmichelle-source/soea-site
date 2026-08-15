@@ -237,6 +237,8 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .story-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; margin-top: 2.2rem; }
 .rescue-card { background: rgba(255,255,255,.05); border: 1px solid var(--border-dark); border-radius: var(--radius); overflow: hidden; }
 .rc-media { min-height: 220px; border-radius: 0; border: 0; border-bottom: 2px dashed var(--green); }
+.rc-media.has-photo { min-height: 0; border-bottom: 0; }
+.rc-media.has-photo img { display: block; width: 100%; height: 100%; min-height: 220px; object-fit: cover; }
 .rc-body { padding: 1.6rem; }
 .rescue-card h3 { color: #fff; }
 .rescue-card p { color: rgba(255,255,255,.82); margin: 0; }
