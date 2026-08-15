@@ -232,7 +232,7 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .story-text p { color: var(--ink); }
 
 /* ---------- Rescue stories ---------- */
-.stories { background: var(--green-800); color: #fff; }
+.stories { background-color: var(--green-800); color: #fff; background-image: url("assets/firs.svg"); background-repeat: repeat-x; background-position: center bottom; background-size: auto 300px; }
 .stories .stories-h { color: #fff; }
 .story-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; margin-top: 2.2rem; }
 .rescue-card { background: rgba(255,255,255,.05); border: 1px solid var(--border-dark); border-radius: var(--radius); overflow: hidden; }
@@ -272,7 +272,7 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .guide-go { font-weight: 600; color: var(--green); font-size: .9rem; }
 
 /* ---------- Support ---------- */
-.support { background: var(--green-900); color: #fff; text-align: center; }
+.support { background-color: var(--green-900); color: #fff; text-align: center; background-image: url("assets/firs.svg"); background-repeat: repeat-x; background-position: center bottom; background-size: auto 260px; }
 .support .eyebrow { text-align: center; }
 .support h2 { color: #fff; }
 .support .lead { color: rgba(255,255,255,.85); }
@@ -332,7 +332,7 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .money-list p { margin: 0; color: var(--muted); max-width: 62ch; }
 
 /* ---------- Footer ---------- */
-.site-footer { background: var(--green-900); color: rgba(255,255,255,.82); padding: clamp(3rem,5vw,4.5rem) 0 2rem; border-top: 1px solid var(--border-dark); }
+.site-footer { background-color: var(--green-900); color: rgba(255,255,255,.82); padding: clamp(3rem,5vw,4.5rem) 0 2rem; border-top: 1px solid var(--border-dark); background-image: url("assets/firs.svg"); background-repeat: repeat-x; background-position: center top; background-size: auto 220px; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 2rem; }
 .foot-logo { height: 96px; width: auto; background: #fff; padding: 10px 14px; border-radius: 10px; margin-bottom: 1rem; }
 .foot-brand p { max-width: 32ch; font-size: .95rem; }
