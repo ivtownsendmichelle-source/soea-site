@@ -478,3 +478,14 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .resources-wrap { max-width: 1000px; }
 .resources-wrap .links-band { margin: 1.4rem 0 0; max-width: none; }
 .resources-wrap .links-band:first-of-type { margin-top: .4rem; }
+
+/* Resources panel (Be Prepared) */
+.resources-panel { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; text-align: left; margin: 2.2rem auto 0; padding: 2.2rem 2.4rem; background-color: var(--green-800); color: #fff; border-radius: var(--radius); box-shadow: var(--shadow-lg); background-image: url("assets/firs.svg"); background-repeat: repeat-x; background-position: center bottom; background-size: auto 200px; transition: transform .2s ease-out, box-shadow .2s ease-out; }
+.resources-panel:hover { transform: translateY(-3px); box-shadow: 0 2px 6px rgba(30,40,25,.1), 0 28px 60px rgba(30,40,25,.22); }
+.resources-panel h3 { color: #fff; font-size: clamp(1.5rem, 2.6vw, 2.1rem); margin: 0 0 .5rem; }
+.resources-panel .rp-text > p:not(.eyebrow) { color: rgba(255,255,255,.85); max-width: 60ch; margin-bottom: 1.1rem; }
+.rp-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.rp-chips li { font-size: .84rem; font-weight: 600; padding: .35rem .8rem; border-radius: 999px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.22); }
+.rp-go { white-space: nowrap; font-weight: 700; font-size: 1.05rem; padding: .95rem 1.5rem; border-radius: var(--radius-sm); background: var(--gold); color: #3a2d05; }
+.resources-panel:hover .rp-go { background: #c1911f; }
+@media (max-width: 800px) { .resources-panel { grid-template-columns: 1fr; padding: 1.6rem 1.4rem; } .rp-go { text-align: center; } }
