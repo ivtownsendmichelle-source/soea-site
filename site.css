@@ -490,3 +490,5 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .resources-panel:hover .rp-go { background: #c1911f; }
 @media (max-width: 800px) { .resources-panel { grid-template-columns: 1fr; padding: 1.6rem 1.4rem; } .rp-go { text-align: center; } }
 .rp-chips li:hover { background: var(--gold); border-color: var(--gold); color: #3a2d05; }
+.guide-card:focus-visible, .resources-panel:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.links-list a:focus-visible, .nav a:focus-visible, .mobile-nav a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
