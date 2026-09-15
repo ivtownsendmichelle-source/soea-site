@@ -1,0 +1,37 @@
+/* Guide pages */
+.guide-page { background: var(--cream); }
+.guide-top { background: var(--cream-2); border-bottom: 1px solid var(--border); }
+.guide-top .header-inner { padding-top: .6rem; padding-bottom: .6rem; }
+.guide-back { font-weight: 600; color: var(--green-700); }
+.guide-back:hover { color: var(--green); }
+.guide-wrap { max-width: 760px; margin: 0 auto; padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.25rem, 5vw, 3rem) clamp(3rem, 8vw, 6rem); }
+.guide-wrap h1 { font-size: clamp(2rem, 4.5vw, 3.2rem); margin-bottom: .4rem; }
+.guide-by { color: var(--muted); font-size: .92rem; margin-bottom: 2rem; }
+.guide-wrap h2 { font-size: clamp(1.4rem, 2.4vw, 1.8rem); margin-top: 2.2rem; }
+.guide-wrap p, .guide-wrap li { font-size: 1.06rem; line-height: 1.7; }
+.guide-wrap ul, .guide-wrap ol { padding-left: 1.3rem; }
+.guide-wrap li { margin-bottom: .5rem; }
+.lal-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.lal-table th, .lal-table td { text-align: left; padding: .9rem 1rem; border-top: 1px solid var(--border); vertical-align: top; }
+.lal-table th { background: var(--green-100); color: var(--green-800); font-family: var(--body); font-size: .82rem; letter-spacing: .08em; text-transform: uppercase; border-top: 0; }
+.lal-table td:first-child { font-family: var(--display); font-weight: 700; font-size: 1.3rem; color: var(--green-800); white-space: nowrap; width: 5.5rem; }
+.lal-table tr.lal-6 td { background: #fbeae7; }
+.lal-table tr.lal-6 td:first-child { color: var(--red-dark); }
+.callout { background: #fbeae7; border-left: 4px solid var(--red); border-radius: var(--radius-sm); padding: 1rem 1.2rem; margin: 1.5rem 0; }
+.callout strong { color: var(--red-dark); }
+.guide-foot { background: var(--green-900); color: #fff; padding: 2rem 0; text-align: center; font-size: .95rem; }
+.guide-foot a { color: #fff; font-weight: 700; font-family: var(--display); font-size: 1.15rem; }
+.guide-foot span { opacity: .8; margin: 0 .5rem; }
+@media (max-width: 600px) { .lal-table th, .lal-table td { padding: .7rem .7rem; } .lal-table td:first-child { width: auto; font-size: 1.1rem; } }
+
+.evac-1, .evac-2, .evac-3 { padding-left: .9rem; border-left: 6px solid; }
+.evac-1 { border-color: var(--green); }
+.evac-2 { border-color: var(--gold); }
+.evac-3 { border-color: var(--red); }
+.callout-amber { background: #fdf3dc; border-left-color: var(--gold); }
+.callout-amber strong { color: #7a5a0a; }
+
+/* Resources page */
+.guide-wrap.resources-wrap { max-width: 1040px; }
+.resources-page { background-color: var(--cream); background-image: url("../assets/firs-cream.svg"); background-repeat: repeat-x; background-position: center bottom; background-size: auto 340px; background-attachment: fixed; }
+.resources-page .guide-wrap { padding-bottom: clamp(6rem, 14vw, 12rem); }
