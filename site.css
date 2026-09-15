@@ -492,3 +492,4 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .rp-chips li:hover { background: var(--gold); border-color: var(--gold); color: #3a2d05; }
 .guide-card:focus-visible, .resources-panel:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 .links-list a:focus-visible, .nav a:focus-visible, .mobile-nav a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
+.vol-photo { width: calc(100% + 3.6rem); margin: -1.8rem 0 1.2rem -1.8rem; max-width: none; height: 220px; object-fit: cover; object-position: 50% 40%; border-radius: var(--radius) var(--radius) 0 0; }
