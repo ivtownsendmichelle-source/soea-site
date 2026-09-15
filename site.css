@@ -452,3 +452,12 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 @media (max-width: 800px) { .partners-band.has-photo { grid-template-columns: 1fr; text-align: center; padding: 1.4rem; }
   .partners-band.has-photo .eyebrow, .partners-band.has-photo .lead-center { text-align: center; margin-left: auto; }
   .partners-band.has-photo .partner-inline { justify-content: center; } }
+
+/* Why we do this (Maria's words) */
+.why { background: var(--cream-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.why-inner { max-width: 760px; }
+.why h2 { font-style: italic; font-weight: 500; color: var(--green-800); margin-bottom: 1.6rem; }
+.why-body p { font-size: 1.08rem; line-height: 1.7; color: var(--ink); }
+.why-body p:first-child::first-letter { font-family: var(--display); font-size: 3.4em; float: left; line-height: .85; padding: .08em .12em 0 0; color: var(--green); }
+.why-attr { margin-top: 1.4rem; padding-top: 1rem; border-top: 3px solid var(--gold); display: inline-block; color: var(--muted); font-size: .95rem; }
+.why-attr strong { color: var(--green-800); font-family: var(--display); font-size: 1.15rem; }
