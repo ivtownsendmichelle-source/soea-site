@@ -471,7 +471,7 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 @media (max-width: 760px) { .links-list { grid-template-columns: 1fr; } .links-list li:nth-child(2) { border-top: 1px solid var(--border); padding-top: .85rem; } }
 .links-list a { font-weight: 700; color: var(--green-700); font-size: 1.05rem; }
 .links-list a::after { content: "\00a0\2197"; font-size: .85em; }
-.links-list a:hover { color: var(--green); text-decoration: underline; }
+.links-list a:hover { color: #b8891a; text-decoration: underline; text-decoration-color: var(--gold); }
 .links-list span { color: var(--muted); font-size: .95rem; }
 
 .guide-more { text-align: center; margin: 1.6rem 0 0; }
@@ -489,3 +489,4 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .rp-go { white-space: nowrap; font-weight: 700; font-size: 1.05rem; padding: .95rem 1.5rem; border-radius: var(--radius-sm); background: var(--gold); color: #3a2d05; }
 .resources-panel:hover .rp-go { background: #c1911f; }
 @media (max-width: 800px) { .resources-panel { grid-template-columns: 1fr; padding: 1.6rem 1.4rem; } .rp-go { text-align: center; } }
+.rp-chips li:hover { background: var(--gold); border-color: var(--gold); color: #3a2d05; }
