@@ -50,3 +50,19 @@
 
 /* Focus states */
 .guide-back:focus-visible, .guide-foot a:focus-visible, .guide-wrap a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
+
+/* Recovery + poster bands on Resources */
+.recovery-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1.8rem; align-items: start; }
+.recovery-img img { width: 100%; border-radius: var(--radius-sm); border: 1px solid var(--border); display: block; }
+.recovery-img:hover img { box-shadow: var(--shadow-lg); }
+.recovery-grid p { font-size: 1rem; }
+.links-list-single { grid-template-columns: 1fr !important; margin: .4rem 0 .8rem; }
+.links-list-single li { flex-direction: row; gap: .8rem; align-items: baseline; padding: .55rem 0; }
+.links-list-single li:nth-child(-n+2) { border-top: 1px solid var(--border); padding-top: .55rem; }
+.links-list-single li:first-child { border-top: 0; padding-top: 0; }
+.rec-k { font-family: var(--display); font-weight: 700; color: var(--green-800); min-width: 3.6rem; font-size: 1.05rem; }
+.rec-deadline { color: var(--red-dark); }
+@media (max-width: 760px) { .recovery-grid { grid-template-columns: 1fr; } }
+.recovery-grid p a { color: var(--green-700); font-weight: 700; }
+.recovery-grid p a::after { content: "\00a0\2197"; font-size: .85em; }
+.recovery-grid p a:hover { color: #b8891a; text-decoration: underline; text-decoration-color: var(--gold); }
