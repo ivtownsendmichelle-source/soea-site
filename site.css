@@ -508,3 +508,9 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .rd-label { margin-right: .5rem; font-size: .78rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
 .recovery-actions { display: flex; flex-wrap: wrap; gap: .8rem; }
 @media (max-width: 900px) { .recovery-inner { grid-template-columns: 1fr; } }
+
+/* Pull-quote attribution (Linda + Maria) */
+.pull-quote p { margin: 0; }
+.pq-attr { margin-top: .8rem; font-family: var(--body); font-style: normal; font-size: .95rem; color: var(--muted); }
+.pq-attr strong { font-family: var(--display); font-style: normal; font-weight: 600; font-size: 1.1rem; color: var(--green-800); }
+.why-quote { margin: 0 0 2rem; font-size: clamp(1.6rem, 3vw, 2.4rem); }
