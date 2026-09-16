@@ -492,3 +492,19 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .guide-card:focus-visible, .resources-panel:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 .links-list a:focus-visible, .nav a:focus-visible, .mobile-nav a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
 .vol-photo { width: calc(100% + 3.6rem); margin: -1.8rem 0 1.2rem -1.8rem; max-width: none; height: 220px; object-fit: cover; object-position: 50% 40%; border-radius: var(--radius) var(--radius) 0 0; }
+
+/* After the Fire (USDA recovery) */
+.recovery { background: var(--green-100); text-align: center; }
+.recovery .eyebrow { text-align: center; }
+.recovery h2 { max-width: 22ch; margin-left: auto; margin-right: auto; }
+.recovery-inner { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 2.4rem; align-items: start; text-align: left; margin-top: 2.4rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.6rem; box-shadow: var(--shadow); }
+.recovery-img img { width: 100%; display: block; border-radius: var(--radius-sm); border: 1px solid var(--border); }
+.recovery-list { list-style: none; margin: 0 0 1.2rem; padding: 0; }
+.recovery-list li { display: grid; grid-template-columns: 4.2rem 1fr; gap: .8rem; padding: .7rem 0; border-top: 1px solid var(--border); font-size: .98rem; color: var(--muted); }
+.recovery-list li:first-child { border-top: 0; padding-top: 0; }
+.recovery-list b { font-family: var(--display); font-size: 1.15rem; color: var(--green-800); }
+.recovery-list strong { color: var(--ink); font-weight: 600; }
+.recovery-deadline { display: block; background: #fbeae7; border-left: 4px solid var(--red); border-radius: var(--radius-sm); padding: .7rem 1rem; color: var(--red-dark); margin: 0 0 1.2rem; }
+.rd-label { margin-right: .5rem; font-size: .78rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.recovery-actions { display: flex; flex-wrap: wrap; gap: .8rem; }
+@media (max-width: 900px) { .recovery-inner { grid-template-columns: 1fr; } }
