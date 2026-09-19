@@ -522,3 +522,4 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .credit-inline { color: var(--muted); opacity: .85; white-space: nowrap; }
 .foot-legal a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .foot-legal a:hover, .foot-legal a:focus-visible { color: var(--gold, #d9b34a); }
+.hero-credit { right: 1rem; bottom: .9rem; z-index: 4; }
