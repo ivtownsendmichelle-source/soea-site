@@ -491,7 +491,8 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .rp-chips li:hover { background: var(--gold); border-color: var(--gold); color: #3a2d05; }
 .guide-card:focus-visible, .resources-panel:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 .links-list a:focus-visible, .nav a:focus-visible, .mobile-nav a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
-.vol-photo { width: calc(100% + 3.6rem); margin: -1.8rem 0 1.2rem -1.8rem; max-width: none; height: 220px; object-fit: cover; object-position: 50% 40%; border-radius: var(--radius) var(--radius) 0 0; }
+.vol-photo-wrap { position: relative; width: calc(100% + 3.6rem); margin: -1.8rem 0 1.2rem -1.8rem; }
+.vol-photo-wrap img { display: block; width: 100%; max-width: none; height: 220px; object-fit: cover; object-position: 50% 40%; border-radius: var(--radius) var(--radius) 0 0; }
 
 /* After the Fire (USDA recovery) */
 .recovery { background: var(--green-100); text-align: center; }
@@ -514,3 +515,10 @@ body.nav-open .nav-toggle span:nth-child(3){ transform: translateY(-7.5px) rotat
 .pq-attr { margin-top: .8rem; font-family: var(--body); font-style: normal; font-size: .95rem; color: var(--muted); }
 .pq-attr strong { font-family: var(--display); font-style: normal; font-weight: 600; font-size: 1.1rem; color: var(--green-800); }
 .why-quote { margin: 0 0 2rem; font-size: clamp(1.6rem, 3vw, 2.4rem); }
+
+/* Photo credits (2026-09-18, per Linda) */
+.rc-media.has-photo { position: relative; }
+.photo-credit { position: absolute; right: .55rem; bottom: .5rem; font-size: .68rem; letter-spacing: .02em; line-height: 1; padding: .3rem .5rem; border-radius: 3px; color: rgba(255,255,255,.92); background: rgba(20,32,26,.62); pointer-events: none; }
+.credit-inline { color: var(--muted); opacity: .85; white-space: nowrap; }
+.foot-legal a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.foot-legal a:hover, .foot-legal a:focus-visible { color: var(--gold, #d9b34a); }
