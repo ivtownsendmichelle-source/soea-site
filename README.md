@@ -1,3 +1,3 @@
-# Southern Oregon Emergency Aid — website (DRAFT preview)
+# Southern Oregon Emergency Aid — website
 
-Static site (vanilla HTML/CSS). Draft for review; not the final content. No CNAME until DNS for southernoregonemergencyaid.org is flipped.
+Static site (vanilla HTML/CSS), live at https://southernoregonemergencyaid.org (GitHub Pages, custom domain). This repo is the source of truth.
